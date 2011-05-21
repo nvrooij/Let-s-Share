@@ -1,0 +1,145 @@
+﻿/* 
+   Localizable.strings
+   ShareWithFriends
+
+   Created by Niels van Rooij on 04-08-09.
+ */
+ // General
+ "General_YES" = "Ja";
+ "General_NO" = "Nee";
+ "General_OK" = "Ok";
+ "General_CANCEL" = "Annuleren";
+ 
+ // DefaultsController.m
+ "DefaultsController_SELECT_MY_CONTACT_TITLE" = "";
+ 
+ // LogFileEntryCell.m
+ "LogFileEntryCell_FROM_LBL" = "Van: %@";
+ "LogFileEntryCell_TO_LBL" = "Naar: %@";
+ 
+ // LogFileEntry.m
+ //--
+ 
+ // SendReceiveLogger.m
+ "SendReceiveLogger_CLEAR_LOG_PROMPT_TITLE" = "Wis geschiedenis:";
+ "SendReceiveLogger_CLEAR_LOG_PROMPT_MESSAGE" = "U staat op het punt de geschiedenis te wissen.\nWilt u doorgaan?";
+ 
+ // DeviceCell.m
+ "DeviceCell_WAITING_FOR_DEVICES" = "Zoeken";
+
+ 
+ // TransmitObjectCell.m
+ //--
+ 
+ // rootShareTableViewController.m
+  "rootShareTableViewController_MAIN_TITLE" = "Let's Share";
+
+ // settingsTableViewController.m
+ "settingsTableViewController_MAIN_TITLE" = "Instellingen";
+ "settingsTableViewController_SETTING_1_TITLE" = "Mijn contact";
+ "settingsTableViewController_SETTING_1_TITLE_HEADER" = "Contact informatie";
+ "settingsTableViewController_SETTING_1_TITLE_FOOTER" = "";
+ "settingsTableViewController_SETTING_2_TITLE" = "Max: 320 x 320px";
+ "settingsTableViewController_SETTING_2_TITLE_HEADER" = "Foto bibliotheek";
+ "settingsTableViewController_SETTING_2_TITLE_FOOTER" = "";
+ "settingsTableViewController_SETTING_3_TITLE" = "Wis geschiedenis";
+ "settingsTableViewController_SETTING_3_TITLE_HEADER" = "Geschiedenis";
+ "settingsTableViewController_SETTING_3_TITLE_FOOTER" = "";
+ "settingsTableViewController_SETTING_4_TITLE" = "Versie";
+ "settingsTableViewController_SETTING_4_TITLE_HEADER" = "Algemeen";
+ "settingsTableViewController_SETTING_4_TITLE_FOOTER" = "";
+ 
+ // deviceSelectorTableViewController.m
+ "deviceSelectorTableViewController_MAIN_TITLE" = "Deel Met";
+ "deviceSelectorTableViewController_UITABLEVIEWHEADER_SENDING" = "Verstuur %@";
+ 
+ // logTableViewController.m
+ "logTableViewController_MAIN_TITLE" = "Geschiedenis";
+ "logTableViewController_UITABLEVIEWHEADER_SEND" = "Versturen";
+ "logTableViewController_UITABLEVIEWHEADER_RECEIVED" = "Ontvangen";
+ 
+ // multiContactSelectorTableViewController.m
+ "multiContactSelectorTableViewController_MAIN_TITLE" = "Selecteer";
+ "multiContactSelectorTableViewController_BUTTON_SHARE" = "Verstuur geselecteerde contacten";
+ "multiContactSelectorTableViewController_CONTACT_PICKER_TITLE" = "Selecteer Contacten";
+ "multiContactSelectorTableViewController_NO_RECORDS_SELECTED_TITLE" = "Geen contacten geselecteerd:";
+ "multiContactSelectorTableViewController_NO_RECORDS_SELECTED_MESSAGE" = "U heeft geen contacten geselecteerd.\nGebruik het '+' teken in de rechterbovenhoek om contacten te selecteren.";
+ 
+ // transmitObjectsViewController.m
+  "transmitObjectsViewController_MAIN_TITLE" = "Ontvangen contacten";
+  "transmitObjectsViewController_BUTTON_SAVE_ALL" = "Alles Opslaan";
+  "transmitObjectsViewController_ADDCONTACT_VIEWCONTROLLER_TITLE" = "Ontvangen Contact";
+  "transmitObjectsViewController_UNSAVED_CONTACTS_ALERT_TITLE" = "Niet opgeslagen contacten:";
+  "transmitObjectsViewController_UNSAVED_CONTACTS_ALERT_MESSAGE" = "Enkele contacten zijn niet opgeslagen. Weet u zeker dat u deze contacten niet wilt opslaan?";
+
+ // transmitObjectImageViewcontroller.m
+  "transmitObjectImageViewcontroller_MAIN_TITLE" = "Ontvangen Foto";
+  "transmitObjectImageViewcontroller_PROMT_IMAGE_SIZE" = "Foto Formaat: %@px";
+  "transmitObjectImageViewcontroller_BUTTON_SAVE_PHOTO" = "Foto Opslaan";
+  "transmitObjectImageViewcontroller_ACTIONSHEET_SAVING_FILE" = "Opslaan van foto met formaat: %@px naar de bibliotheek\nEen ogenblik geduld.";
+  "transmitObjectImageViewcontroller_UNSAVED_PHOTO_ALERT_TITLE" = "Niet opgeslagen foto:";
+  "transmitObjectImageViewcontroller_UNSAVED_PHOTO_ALERT_MESSAGE" = "De foto die u heeft ontvangen is niet opgeslagen. Weet u zeker dat u deze foto niet wilt opslaan?";
+  
+  // ABRecordSerializer.m
+  //--
+  
+  // TransmitDataHandlerUtility.m
+  //--
+  
+  // TransmitObject.m
+  "TransmitObject_CONTACT_LBL" = "contact%@";
+  "TransmitObject_CONTACT_LBL_MULTIPLIER" = "en";
+  "TransmitObject_IMAGE_LBL" = "foto%@";
+  "TransmitObject_IMAGE_LBL_MULTIPLIER" = "s";
+  "TransmitObject_DESCRIPTION_CONTACT" = "Contact: %@";
+  "TransmitObject_DESCRIPTION_PHOTO" = "Foto: %@";
+ 
+ // SessionManager.m
+ //--
+  
+  // Device.m
+  //--
+  
+  // DevicesManager.m
+  //--
+
+  // menuItem.m
+  //--
+  
+  // menuItemCell.m
+  //--
+
+  // ShareWithFriendsAppDelegate.m
+  "ShareWithFriendsAppDelegate_TABBAR_ITEM_1_TITLE" = "Delen";
+  "ShareWithFriendsAppDelegate_TABBAR_ITEM_3_TITLE" = "Instellingen";
+  "ShareWithFriendsAppDelegate_MEMORY_WARNING_TITLE" = "Geheugen Waarschuwing";
+  "ShareWithFriendsAppDelegate_MEMORY_WARNING_MESSAGE" = "De applicatie heeft een geheugenwaarschuwing ontvangen en kon geen geheugen vrijmaken. Sluit de applicatie en start deze opnieuw.";
+
+  // TransmitDataHandler.m
+  "TransmitDataHandler_WAITING_FOR_ACCEPTANCE_PROCESS" = "Wachten tot '%@'\naccepteert.";
+  "TransmitDataHandler_SEND_BUSY_ERROR" = "Bezig met een andere zending.\nEven gedult of annuleer de zending.";
+  "TransmitDataHandler_CONNECTION_ERROR" = "Fout tijdens het verbinden met '%@'.";
+  "TransmitDataHandler_RECEIVED_UNRECOGNIGZED_COMMAND" = "Er heeft zich een fout opgedaan tijdens de zending. De zending wordt gesloten.\nProbeert u het nogmaals.";
+  "TransmitDataHandler_RECEIVED_ERROR_ERROR" = "Er heeft zich een fout opgedaan tijdens de zending. De zending wordt gesloten.\nProbeert u het nogmaals.";
+  "TransmitDataHandler_PEER_CANCELLED_ERROR" = "De andere host heeft de zending geannuleerd.";
+  "TransmitDataHandler_RECEIVED_BUSY_ERROR" = "'%@' is bezig met een andere zending.\nProbeer het later nogmaals.";
+  "TransmitDataHandler_RECEIVE_VIEW_TITLE" = "Inkomende zending:";
+  "TransmitDataHandler_RECEIVE_VIEW_MESSAGE" = "'%@' wil u het volgende sturen: '%@'.\nAccepteert u deze zending?";
+  "TransmitDataHandler_RECEPTION_ERROR" = "Er heeft zich een fout opgedaan tijdens de zending. De zending wordt gesloten.\nProbeert u het nogmaals.";
+  "TransmitDataHandler_RETRY_VIEW_TITLE" = "Zending geweigerd:";
+  "TransmitDataHandler_RETRY_VIEW_MESSAGE" = "De zending: '%@' is geweigerd door '%@'.\nWilt u het nogmaals proberen?";
+  "TransmitDataHandler_RECEIVING_PROCESS" = "Ontvangen van '%@'.";
+  "TransmitDataHandler_SENDING_PROCESS" = "Versturen van '%@'.";
+  "TransmitDataHandler_ERROR_VIEW_TITLE" = "Zending Error:";
+  "TransmitDataHandler_UNEXPECTED_COMMAND_ERROR" = "Er heeft zich een fout opgedaan tijdens de zending. De zending wordt gesloten.\nProbeert u het nogmaals.";
+  "TransmitDataHandler_UNEXPECTED_CONNECTION_TIMEDOUT" = "De verbinding verbroken.\nProbeer het nogmaals.";
+
+  // ShareMenu
+  "SECTION_1_TITLE" = "Contact informatie";
+  "SECTION_2_TITLE" = "Foto bibliotheek";
+  "SECTION_1_MENUITEM_1_TITLE" = "Mijn contact";
+  "SECTION_1_MENUITEM_1_SUBTITLE" = "Deel uw persoonlijke contact informatie.";
+  "SECTION_1_MENUITEM_2_TITLE" = "Adresboek";
+  "SECTION_1_MENUITEM_2_SUBTITLE" = "Selecteer een of meerdere contacten uit het adresboek.";
+  "SECTION_2_MENUITEM_1_TITLE" = "Foto";
+  "SECTION_2_MENUITEM_1_SUBTITLE" = "Selecteer een foto uit de bibliotheek.";
