@@ -212,7 +212,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				5EF0574F12730D5E0024669F /* MessageUI.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -248,6 +247,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5EF0574F12730D5E0024669F /* MessageUI.framework */,
 				5EADF9DE10616AE800FEA64C /* CoreLocation.framework */,
 				5EADF9C010616AAE00FEA64C /* QuartzCore.framework */,
 				5EA2B013103B5B1F00DBAF6B /* AddressBook.framework */,
