@@ -132,7 +132,7 @@
   "TransmitDataHandler_SENDING_PROCESS" = "Versturen van '%@'.";
   "TransmitDataHandler_ERROR_VIEW_TITLE" = "Zending Error:";
   "TransmitDataHandler_UNEXPECTED_COMMAND_ERROR" = "Er heeft zich een fout opgedaan tijdens de zending. De zending wordt gesloten.\nProbeert u het nogmaals.";
-  "TransmitDataHandler_UNEXPECTED_CONNECTION_TIMEDOUT" = "De verbinding verbroken.\nProbeer het nogmaals.";
+  "TransmitDataHandler_UNEXPECTED_CONNECTION_TIMEDOUT" = "De verbinding verbroken.\nProbeert u het nogmaals.";
 
   // ShareMenu
   "SECTION_1_TITLE" = "Contact informatie";
