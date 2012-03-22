@@ -1,7 +1,21 @@
 Introduction
 ====================
-Let's Share is an iPhone application for sharing contacts and photo's over a bluetooth connection. It uses Apple's GameKit framework to connect and transfer data.
+Let's Share is an iPhone application for sharing contacts and photo's over a bluetooth connection.
+
+Technology
+--------------------
+Let's share uses GameKit to pair with other devices and transfer data over BlueTooth and WiFi. GameKit makes discovery easy. Although Bonjour would have been the better choice, I never came to that transition.
+
+By using NSKeyedArchiver to serialize the ABRecordRef objects and transmit them using GameKit. Photo's are transmitted/beamed using NSData.
+
+If been optimizing the communication protocol to allow for better error handling.
+
+About
+---------------------
+
+This was my first iOS project I published in the App Store and I ha d alot of fun making it. I learned a lot and hop it will help others to create nice Apps.
 
 Used Resources
 ====================
 Icons are designed by http://Garcya.us and distributed free for use
+
